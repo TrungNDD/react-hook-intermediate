@@ -8,7 +8,7 @@ const router = createBrowserRouter([
     element: <App />,
     children: [
       {
-        path: 'pokedex',
+        index: true,
         element: <PokedexPage />
       }
     ]
